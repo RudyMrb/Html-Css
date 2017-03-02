@@ -1,0 +1,52 @@
+body{
+  background-image: url("https://thumbs.dreamstime.com/t/vieux-mur-en-bois-blanc-texture-sans-joint-de-fond-64001794.jpg");
+}
+.inlineB{
+  display: inline-block;
+  margin: 20px;
+  font-family: fantasy;
+}
+nav{
+  position: absolute;
+  right: 25px
+}
+#logo{
+  position: relative;
+  margin: auto;
+  width: 200px;
+  display: block;
+}
+#logo img{
+  width: 160px;
+  left: -20px;
+  display: block;
+  margin: auto;
+  position: absolute;
+}
+#logo div{
+	width: 0;
+	height: 0;
+	border-top: 75px solid transparent;
+	border-left: 75px solid #b91d57;
+	border-bottom: 75px solid transparent;
+  display: block;
+  margin: auto;
+}
+#story p{
+  float: left;
+}
+#story{
+  display: inline;
+}
+#fresh p{
+  float: right;
+}
+#fresh{
+  display: inline;
+}
+#local p{
+  float: left;
+}
+#local{
+  display: inline;
+}
