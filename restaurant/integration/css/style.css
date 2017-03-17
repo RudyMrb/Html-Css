@@ -1,5 +1,44 @@
-body{
-  background-image: url("https://thumbs.dreamstime.com/t/vieux-mur-en-bois-blanc-texture-sans-joint-de-fond-64001794.jpg");
+
+header{
+  background-image: url("https://thumbs.dreamstime.com/t/plancher-en-pastel-de-planche-de-contreplaqu-de-brown-peint-vieux-fond-en-bois-de-texture-de-table-suprieure-grise-76314982.jpg");
+}
+#logoResto h1{
+  font-family: 'Caveat Brush', cursive;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+#logoResto h1 span{
+  font-size: 20px;
+  display: inline;
+  vertical-align: top;
+  position: relative;
+}
+#logoResto h1 span:after{
+  top: 10px;
+  content: "-";
+  position: absolute;
+  left: 0;
+}
+#logoResto{
+  position: relative;
+  display: inline-block;
+  margin-left: 80px;
+}
+.rectangle{
+  bottom: 5px;
+  position: absolute;
+  margin: 0;
+  display: block;
+  border: 5px solid #b91d57;
+  padding: 0 7px;
+  width: 1px;
+  left: 40%;
+}
+section .rectangle{
+  position: inherit;
+  margin: auto;
+  left: 0;
+  bottom: 0;
 }
 .inlineB{
   display: inline-block;
@@ -15,6 +54,7 @@ nav{
   margin: auto;
   width: 200px;
   display: block;
+  padding-bottom: 70px;
 }
 #logo img{
   width: 160px;
@@ -32,21 +72,33 @@ nav{
   display: block;
   margin: auto;
 }
-#story p{
-  float: left;
+#story img{
+  transform: scaleX(-1);
+  width: 120%;
 }
-#story{
-  display: inline;
+.pBloque-left, .pBloque-right{
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
 }
-#fresh p{
-  float: right;
+.pBloque-left{
+  position: relative;
+  width: 30%;
 }
-#fresh{
-  display: inline;
+.pBloque-right{
+  width: 70%;
 }
-#local p{
-  float: left;
+p{
+  font-size: 10px;
+  font-family: cursive;
+  padding: 50px;
 }
-#local{
-  display: inline;
+h2{
+  font-family: sans-serif;
+}
+body img{
+  width: 100%
+}
+footer{
+  font-family: fantasy;
 }
